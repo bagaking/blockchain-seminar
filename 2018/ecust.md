@@ -30,8 +30,7 @@ Block[hash : txs...: verify] -> Block[hash : txs...: verify]
   - POW 
   - POS
   - DPOS
-
-[]
+ 
 ## 通常说到的 区块链相关开发
 > 底层
   - 链, 公私链, 联盟链
@@ -45,6 +44,7 @@ Block[hash : txs...: verify] -> Block[hash : txs...: verify]
 - 交易提交和打包(transaction 池)
 - 验证系统(公私钥)
 - 共识模块
+- 挖矿模块
 - P2P网络
 - api 和 cli 工具 
 
