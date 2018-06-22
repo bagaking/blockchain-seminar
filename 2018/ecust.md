@@ -7,7 +7,8 @@ Block[hash : txs...: verify] -> Block[hash : txs...: verify]
 - 中本聪和他的BTC
 > BTC实际上是一个区块链的应用"数字货币"
 > 解决了几个问题
-  - 拜占庭将军问题 (一致性, 不可信任的节点数量, 引入时间)
+  - 区块不可修改 (后续结构中有记录)
+  - 拜占庭将军问题 (一致性, 不可信任的节点数量, 引入时间, 提高成本)
   - 双花问题 (允许不一致和长链选择)
 - Fork(分叉)和山寨币
   - Github 上的 Fork
@@ -30,6 +31,7 @@ Block[hash : txs...: verify] -> Block[hash : txs...: verify]
   - POS
   - DPOS
 
+[]
 ## 通常说到的 区块链相关开发
 > 底层
   - 链, 公私链, 联盟链
@@ -49,7 +51,8 @@ Block[hash : txs...: verify] -> Block[hash : txs...: verify]
 ## 攻防
 - 51算力攻击
 
-## POW
+## 共识算法
+### POW
 - HASH 算法
 1. 碰撞概率小
 2. 不可逆推
@@ -63,7 +66,9 @@ Block[hash : txs...: verify] -> Block[hash : txs...: verify]
 32字节的Merkle Root Hash、
 4字节的时间缀（当前时间）、
 4字节的当前难度值、
-4字节的随机数组成
+4字节的随机数组成 
 - POW 过程
 附加数并计算 hash, 直到满足头部有 n 个0
+### POS
+### DPOS
   
