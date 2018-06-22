@@ -1,7 +1,4 @@
-# 区块链应用技术
-
-Block[hash : txs...: verify] -> Block[hash : txs...: verify] 
-
+# 区块链应用技术 
 
 ## 什么是区块链
 - 中本聪和他的BTC
@@ -39,18 +36,6 @@ Block[hash : txs...: verify] -> Block[hash : txs...: verify]
   - ERC20, ERC721...
   - DAPP : crypto kitties ...
 
-## 开发一条链
-- 区块结构
-- 交易提交和打包(transaction 池)
-- 验证系统(公私钥)
-- 共识模块
-- 挖矿模块
-- P2P网络
-- api 和 cli 工具 
-
-## 攻防
-- 51算力攻击
-
 ## 共识算法
 ### POW
 - HASH 算法
@@ -72,3 +57,15 @@ Block[hash : txs...: verify] -> Block[hash : txs...: verify]
 ### POS
 ### DPOS
   
+
+## 开发一条链
+- 区块结构
+- 交易提交和打包(transaction 池)
+- 验证系统(公私钥)
+- 共识模块
+- 挖矿模块
+- P2P网络
+- api 和 cli 工具 
+
+## 攻防
+- 51算力攻击
